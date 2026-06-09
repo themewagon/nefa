@@ -1,4 +1,8 @@
 export default {
+  target: 'static',
+  router: {
+    base: '/nefa/'
+  },
   head: {
     title: 'NEFA',
     htmlAttrs: {
@@ -11,7 +15,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/nefa/favicon.ico' },
       {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap',
